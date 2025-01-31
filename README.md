@@ -1,41 +1,32 @@
-# Crypto-Walllet - Fast, Robust & Secure Digital Wallet -Blockchain in to it !!
+# BlockchainWallet - Fast, Robust & Secure Digital Wallet - Powered by Blockchain
 ![Natrium Themes](https://natrium.io/assets/natrium-themes.jpg)
 
-## What is Crypto-Walllet?
+## What is BlockchainWallet?
 
-Natrium is a cross-platform mobile wallet for the NANO cryptocurrency. It is written in Dart using [Flutter](https://flutter.io).
+BlockchainWallet is a cross-platform mobile wallet designed for managing various cryptocurrencies with a focus on speed, security, and robustness. The app is built using Dart and [Flutter](https://flutter.io).
 
 ## Server
 
-Still In Development with Node-Js and Dart-Codalt
+Currently under development using Node.js and Dart-Codalt.
 
 ## Contributing
 
-* Fork the repository and clone it to your local machine
-* Follow the instructions [here](https://flutter.io/docs/get-started/install) to install the Flutter SDK
-* Setup [Android Studio](https://flutter.io/docs/development/tools/android-studio) or [Visual Studio Code](https://flutter.io/docs/development/tools/vs-code).
+1. Fork the repository and clone it to your local machine.
+2. Follow the installation instructions in the [Flutter documentation](https://flutter.io/docs/get-started/install) to set up the Flutter SDK.
+3. Set up your development environment with [Android Studio](https://flutter.io/docs/development/tools/android-studio) or [Visual Studio Code](https://flutter.io/docs/development/tools/vs-code).
 
-## Building
+## Building the App
 
-Android (armeabi-v7a): `flutter build apk`
-Android (arm64-v8a): `flutter build apk --target=android-arm64`
-iOS: `flutter build ios`
+- For Android (armeabi-v7a): `flutter build apk`
+- For Android (arm64-v8a): `flutter build apk --target=android-arm64`
+- For iOS: `flutter build ios`
 
-If you have a connected device or emulator you can run and deploy the app with `flutter run`
+To run and deploy the app on a connected device or emulator, use `flutter run`.
 
-## Have a question?
+## Need Help?
 
-If you need any help, feel free to file an issue if you do not manage to find a solution.
+If you have any questions or encounter issues, feel free to file an issue on the repository if a solution isn't already available.
 
 ## License
 
-Crypto-Walllet is released under the MIT License
-
-### Update translations:
-
-```
-flutter pub pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/localization.dart
-flutter pub pub run intl_translation:generate_from_arb --output-dir=lib/l10n \
-   --no-use-deferred-loading lib/localization.dart lib/l10n/intl_*.arb
-```
-
+BlockchainWallet is released under the MIT License.
